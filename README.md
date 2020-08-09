@@ -8,8 +8,6 @@ A sentiment analyzer for text and articles using TensorFlow's toxicity model.
 
 ### Dependencies
 
-Default:
-
 - [body-parser](https://github.com/expressjs/body-parser)
   - parse incoming body requests
 - [cors](https://github.com/expressjs/cors)
@@ -35,7 +33,7 @@ Default:
 /public
 /src
     /utils
-        -- import and load toxicity model from tensorflow
+        toxicityAnalyzer.js -- import and load toxicity model from tensorflow
     App.vue -- main functionality
     main.js -- register ui framework
 package.json -- required dependencies
